@@ -5,7 +5,7 @@ using namespace std;
 // {
 //     for(int i= 10; i>=0;--i)
 //     {
-//         cout<<((n>>1)&1);
+//         cout<<((n>>i)&1);
 //     }cout<<endl;
 //}
 int setKBits(int n,int k)
