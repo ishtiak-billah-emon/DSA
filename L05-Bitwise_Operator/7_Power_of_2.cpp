@@ -3,7 +3,7 @@ using namespace std;
 
 void power_of_two(int n)
 {
-    if(n & (n-1)==0)
+    if((n & (n-1))==0)
     {
         cout<<"N is a power of Two"<<endl;
     }else{
