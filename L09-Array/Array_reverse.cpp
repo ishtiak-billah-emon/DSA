@@ -5,7 +5,8 @@ int main()
     int n = 7;
     int a[n]={1,2,3,4,5,6,7};
 
-
+    // way 1
+    
     for(int i = 0; i< n/2; i++)
     {
             swap(a[i],a[n-i-1]);
@@ -38,6 +39,19 @@ int main()
         swap( 2 , 5)
         swap( 3 , 4)
     */
+
+   // way 2
+
+   int start = 0;
+   int end = n-1 ; 
+
+   while( start <= end)
+   {
+        swap(a[start],a[end]);
+        start ++;
+        end --;
+   }
+   
    // printing array elements
     for(int i = 0; i<n;i++)
     {
