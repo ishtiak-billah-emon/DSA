@@ -2,8 +2,8 @@
 using namespace std;
 
 #define lln long long int
-#define ll long long
 #define ld long double
+#define ll long long
 #define endl "\n";
 #define sc(n) scanf("%d",&n);
 #define scl(n) scanf("%lld",&n);
@@ -14,21 +14,10 @@ using namespace std;
 #define f(i,a,b) for(int i=a; i <= b;i++)
 #define F(i,a,b) for(int i=a; i < b;i++)
 const ll mod = 1e9+7;
-
+const lld pi = 3.14159265358979323846;
 
 
 void solve() {
-    ll n;
-    int k;
-    cin>>n>>k;
-    ll ans = 1;
-    for(int i  = 0 ;i<k;i++)
-    {
-
-        ans = (ans * n ) % mod;
-    }
-    cout<<ans<<endl;
-
 
 }
 
@@ -39,12 +28,21 @@ cin.tie(0); cout.tie(0);
     ll t,CT=0;
     cin>>t;
 
-
     while(t--)
     {
-        // cout << "Case #" << ++CT << ":
+        // cout << "Case #" << ++CT << ": ";
 
-        solve();
+        ll n;
+        cin>>n;
+
+        ll a[n];
+
+        for(int i = 0; i<n;i++)
+        {
+            cin>>a[i];
+        }
+
+
     }
 
 
